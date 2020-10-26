@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/94cbee0147.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <div class="row">
+                <nav class="navbar navbar-transparent" class="col">
+                    <form class="form-inline" id="search-form">
+                        <input class="form-control mr-sm-2" type="search" id="city-input" placeholder="Search" aria-label="Search" />
+                        <div class="col-2">
+                            <button class="btn"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </nav>
+                <div class="col">
+                    <button class="btn btn-succes" id="currentLocationButton">
+                        <i class="fas fa-location-arrow"></i></button>
+                </div>
+            </div>
+            <div class="row">
+             <h1 class="col" id="city">
+
+             </h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    
+                    <h2 class="realDateTime">Monday 09:33</h2>
+                    <small class="discription">Clear</small>
+                  
+                </div>
+                
+            </div>
+            
+            
+            <div class="row justify-content-around">
+                <div class="col-4"></i>
+                    <img src="images/sun.svg" id="icon"/>
+                    </br>
+                    <span class="tempNumber" id="tempNumber"></span>
+                    <span class="units">
+                        °F
+                    </span>
+                    <ul class="humidity">
+                    
+                        <li>
+                            Humidity: <span id="humidity"></span>%
+                        </li>
+                        <li>
+                            Wind: <span id="wind"></span> km/h
+                        </li>
+                    </ul>
+            
+                </div>
+            
+                <div class="col-8">
+                    <img src="images/WalkingDog.svg" alt="Person"/>
+                </div>
+            
+            </div>
+           
+
+            <small><a href="https://github.com/mmonter41912/Weather-App">Open-source code</a> by Marlen Alvarado</small>
+
+        
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
