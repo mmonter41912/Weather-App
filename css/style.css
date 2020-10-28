@@ -3,7 +3,7 @@
   margin: 30px auto;
   padding: 20px;
   border: 1px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 20px;
   background-image: linear-gradient(to top, #6991c7 0%, #a3bded 100%);
   font-family: sans-serif;
 }
@@ -17,22 +17,33 @@
 div h1 {
   font-family: "Assistant", sans-serif;
   letter-spacing: 0.1rem;
+  margin: auto;
   font-weight: 700;
   font-size: 40px;
-
   color: white;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  display: inline-block;
+  padding: 0;
+}
+
+button:hover {
+  color: #ec6e4c;
 }
 
 div h2 {
   font-family: "Assistant", sans-serif;
   letter-spacing: 0.1rem;
-  margin: 0;
+  margin: auto;
   font-weight: 550;
   font-size: 30px;
   color: white;
 }
 
-.discription {
+.description {
   color: white;
 }
 
@@ -45,16 +56,6 @@ ul.humidity {
   font-size: 15px;
   font-weight: 600;
   color: white;
-}
-
-button i {
-  max-width: 20px;
-}
-
-.mainIcon {
-  color: #ffffff;
-  font-size: 130px;
-  margin-top: 20px;
 }
 
 .tempNumber {
@@ -71,4 +72,9 @@ button i {
   color: white;
   position: relative;
   top: -32px;
+}
+
+.codeLink {
+  text-align: center;
+  display: block;
 }
