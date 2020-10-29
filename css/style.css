@@ -47,6 +47,8 @@ div h2 {
   color: white;
 }
 
+div.scaled {
+}
 ul.humidity {
   font-family: "Assistant", sans-serif;
   letter-spacing: 0.01rem;
@@ -74,7 +76,28 @@ ul.humidity {
   top: -32px;
 }
 
+.link {
+  color: #ec6e4c;
+}
 .codeLink {
+  font-family: "Assistant";
+  font-size: medium;
   text-align: center;
   display: block;
+}
+
+footer {
+  font-family: "Assistant";
+  text-align: center;
+  font-size: medium;
+}
+
+.linkedin-logo {
+  width: 40px;
+  padding-right: 2px;
+  margin: 0;
+}
+
+.linkedin-logo :hover {
+  color: #ec6e4c;
 }

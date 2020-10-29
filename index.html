@@ -22,22 +22,21 @@
                 <nav class="navbar navbar-transparent" class="col">
                     <form class="form-inline" id="search-form">
                         <input class="form-control mr-sm-2" type="search" id="city-input" placeholder="Search" aria-label="Search" />
-                        <div class="col">
-                            <button class="btn"><i class="fa fa-search"></i></button>
-                        </div>
-                    </form>
-                    <div class="col">
+                        <button class="btn">
+                            <i class="fa fa-search"></i></button>
                         <button class="btn btn-succes" id="currentLocationButton">
                             <i class="fas fa-location-arrow"></i></button>
-                    </div>
+                    </form>
                 </nav>
                 
             </div>
+
             <div class="row">
              <h1 class="col" id="city">
 
              </h1>
             </div>
+
             <div class="row">
                 <div class="col">
                     
@@ -45,13 +44,12 @@
                     <small class="description">Clear</small>
                   
                 </div>
-                
             </div>
             
             
             <div class="row justify-content-around">
                 <div class="col-4"></i>
-                    <img src="images/01d@2x.png" alt ="clear" id="icon"/>
+                    <img src="images/01d@2x.png" class= "scaled" alt ="clear" id="icon"/>
                     </br>
                     <span class="tempNumber" id="tempNumber"></span>
                     <span class="units">
@@ -69,7 +67,7 @@
             
                 </div>
             
-                <div class="col-8">
+                <div class="col-8" class="person">
                     <img src="images/WalkingDog.svg" alt="Person"/>
                 </div>
             
@@ -81,8 +79,15 @@
         
         </div>
     </div>
-    <small class="codeLink"><a href="https://github.com/mmonter41912/Weather-App">Open-source code</a> by Marlen
-        Alvarado</small>
+    
+        <footer>
+            <small class="codeLink"><a href="https://github.com/mmonter41912/Weather-App" class="link">Open-source code</a> by
+                Marlen
+                Alvarado</small>
+                
+            Let's connect 😊<a href="https://www.linkedin.com/in/marlenalvarado/" target="_blank"><img class="linkedin-logo"
+                    src="images/Linkedin-Logo-Free-PNG-Image.png" alt="Linkedin Logo" /></a>
+        </footer>
     <script src="index.js"></script>
 </body>
 
