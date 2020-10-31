@@ -79,6 +79,9 @@ ul.humidity {
 .link {
   color: #ec6e4c;
 }
+.link:hover {
+  color: #6991c7;
+}
 .codeLink {
   font-family: "Assistant";
   font-size: medium;
@@ -96,7 +99,8 @@ footer {
   width: 30px;
   padding-right: 2px;
   margin: 0;
-  color: #ec6e4c;
+  fill: #ec6e4c;
+  vertical-align: bottom;
 }
 
 .linkedin-logo:hover {
