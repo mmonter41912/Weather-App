@@ -80,25 +80,20 @@ function displayCelsiusTemperature(event) {
   let temperatureElement = document.querySelector("#tempNumber");
   fahrenheitLink.classList.remove("active");
   celsiusLink.classList.add("active");
-  let celsiusTemperature = (fahrenheitTemperature − 32) * 5/9;
-  temperatureElement.innerHTML = Math.round (celsiusTemperature);
+  let celsiusTemperature = ((fahrenheitTemperature - 32)) * 5 / 9;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
-
-function displayFahrenheitTemperature (event) {
+function displayFahrenheitTemperature(event) {
   event.preventDefault();
   fahrenheitLink.classList.add("active");
   celsiusLink.classList.remove("active");
   let temperatureElement = document.querySelector("#tempNumber");
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
-
 let fahrenheitTemperature = null;
-
-
-let celsiusLink = document.querySelector("celsius-link");
+let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
-
-let fahrenheitLink = document.querySelector("fahrenheit-link");
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let apiKey = "f7bcaae56975747b83d88801e136e5f9";

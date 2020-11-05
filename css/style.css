@@ -68,13 +68,14 @@ ul.humidity {
   color: white;
 }
 
-.weather-temperature .active {
-  color: black;
+.active {
+  color: white;
   cursor: default;
 }
 
-.weather-temperature .active:hover {
+.active:hover {
   text-decoration: none;
+  color: white;
 }
 
 .units {
